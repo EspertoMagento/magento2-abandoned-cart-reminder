@@ -1,0 +1,30 @@
+{
+    "name": "espertomagento/magento2-abandoned-cart-reminder",
+    "description": "A module which sends reminder email to customer upon cart abandonment after certain time.",
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "EspertoMagento",
+            "email": "info@espertomagent.it"
+        }
+    ],
+    "require": {
+        "EspertoMagento/magento2-core-module": ">=1.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "EspertoMagento\\AbandonedCartReminder\\": ""
+        }
+    }
+}

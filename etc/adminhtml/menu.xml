@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+            id="EspertoMagento_AbandonedCartReminder::AbandonedCartReminder"
+            title="Abandoned Cart Reminder: Email Logs"
+            module="EspertoMagento_AbandonedCartReminder"
+            sortOrder="100"
+            action="em_abandoned/abandoned"
+            resource="EspertoMagento_AbandonedCartReminder::AbandonedCartReminder"
+            parent="EspertoMagento_CoreModule::Reports"
+        />
+    </menu>
+</config>
