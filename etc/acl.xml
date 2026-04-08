@@ -4,7 +4,7 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="Magento_Reports::report">
-                    <resource id="EspertoMagento_CoreModule::Reports">
+                    <resource id="Adeelq_CoreModule::Reports">
                         <resource id="EspertoMagento_AbandonedCartReminder::AbandonedCartReminder" title="Abandoned Cart Reminder: Email Logs" />
                     </resource>
                 </resource>

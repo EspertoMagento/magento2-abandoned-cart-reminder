@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="EspertoMagento_AbandonedCartReminder" setup_version="1.0.3">
         <sequence>
-            <module name="EspertoMagento_CoreModule" />
+            <module name="Adeelq_CoreModule" />
             <module name="Magento_Sales"/>
             <module name="Magento_Config" />
             <module name="Magento_Quote" />

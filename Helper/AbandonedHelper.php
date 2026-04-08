@@ -2,8 +2,8 @@
 
 namespace EspertoMagento\AbandonedCartReminder\Helper;
 
-use EspertoMagento\CoreModule\Helper\Base;
-use EspertoMagento\CoreModule\Logger\Logger;
+use Adeelq\CoreModule\Helper\Base;
+use Adeelq\CoreModule\Logger\Logger;
 use Magento\Framework\App\Area;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\MailException;

@@ -8,7 +8,7 @@
             sortOrder="100"
             action="em_abandoned/abandoned"
             resource="EspertoMagento_AbandonedCartReminder::AbandonedCartReminder"
-            parent="EspertoMagento_CoreModule::Reports"
+            parent="Adeelq_CoreModule::Reports"
         />
     </menu>
 </config>

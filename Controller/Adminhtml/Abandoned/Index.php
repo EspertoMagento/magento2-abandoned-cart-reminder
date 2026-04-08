@@ -3,7 +3,7 @@
 namespace EspertoMagento\AbandonedCartReminder\Controller\Adminhtml\Abandoned;
 
 use EspertoMagento\AbandonedCartReminder\Controller\Adminhtml\Abandoned;
-use EspertoMagento\CoreModule\Controller\Adminhtml\AbstractIndex;
+use Adeelq\CoreModule\Controller\Adminhtml\AbstractIndex;
 
 class Index extends AbstractIndex
 {
