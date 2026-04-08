@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "EspertoMagento/magento2-core-module": ">=1.0"
+        "adeelq/magento2-core-module": ">=1.0"
     },
     "repositories": [
         {
